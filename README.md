@@ -13,6 +13,7 @@ Retro PCs, game consoles, handhelds, microcontrollers. If it has a CPU and someo
 - [Retro computers](#retro-computers)
 - [Consoles and handhelds](#consoles-and-handhelds)
 - [Microcontrollers](#microcontrollers)
+- [Wearables](#wearables)
 - [Emulator only](#emulator-only)
 - [Thin clients](#thin-clients)
 - [Extremes](#extremes)
@@ -45,6 +46,12 @@ Retro PCs, game consoles, handhelds, microcontrollers. If it has a CPU and someo
 | Raspberry Pi Pico (RP2040)                                                     | stories260K        | ?                   | [picollama260k](https://github.com/tarelerulz/pico-experiments/tree/main/picollama260k) |
 | RP2350 board with 16MB flash and 8MB PSRAM (standard Pico 2 boards won't work) | bundled 14MB model | ~850 ms per token   | [PicoLlama](https://github.com/earlephilhower/PicoLlama)                                |
 
+## Wearables
+
+| Device                                                       | Model                         | Reported speed | Project                                            |
+| ------------------------------------------------------------ | ----------------------------- | -------------- | -------------------------------------------------- |
+| Google Pixel Watch 3, Wear OS 5, 32 bit ARM, ~0.5GB free RAM | SmolLM2-360M-Instruct, Q4_K_M | ~1 to 4 tok/s  | [wear-llm](https://github.com/mkornreich/wear-llm) |
+
 ## Emulator only
 
 Real ports, but so far only shown running in an emulator. Moves to the tables above once someone runs it on real hardware.
@@ -72,7 +79,6 @@ We haven't found a documented on-device port for these yet. If one exists, or yo
 - PlayStation Vita
 - Game Boy / Game Boy Advance
 - Kindle (e-ink)
-- Smartwatch
 - Graphing calculator (inference on the calculator itself)
 
 ## Foundations
