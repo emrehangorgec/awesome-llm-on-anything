@@ -31,12 +31,13 @@ Retro PCs, game consoles, handhelds, microcontrollers. If it has a CPU and someo
 
 ## Consoles and handhelds
 
-| Device                                                 | Model                         | Reported speed                            | Project                                                 |
-| ------------------------------------------------------ | ----------------------------- | ----------------------------------------- | ------------------------------------------------------- |
-| PlayStation Portable                                   | stories260K                   | ?                                         | [llama2-psp](https://github.com/caiomadeira/llama2-psp) |
-| Nintendo Wii, 88MB RAM, 729 MHz PowerPC                | stories15M, int8              | 61.9 tok/s (GPU engine), 12.7 tok/s (CPU) | [iiama2.c](https://github.com/brysontang/iiama2.c)      |
-| PS Vita PCH-1000, ARM Cortex-A9 overclocked to 555 MHz | stories260K / stories15M      | ~120 / ~1.8 tok/s                         | [psvita-llm](https://github.com/callbacked/psvita-llm)  |
-| Nintendo Switch, Tegra X1, Switchroot Linux            | Llama 3.2 3B Instruct, Q4_K_M | 3.50 tok/s generation                     | [write-up](https://nocoffei.com/?p=352)                 |
+| Device                                                                    | Model                         | Reported speed                            | Project                                                 |
+| ------------------------------------------------------------------------- | ----------------------------- | ----------------------------------------- | ------------------------------------------------------- |
+| PlayStation 2, Emotion Engine 294 MHz, 32MB RAM, weights streamed from CD | brandon-tiny-10m-instruct, Q8 | ?                                         | [ps2-llm](https://github.com/xaskasdf/ps2-llm)          |
+| PlayStation Portable                                                      | stories260K                   | ?                                         | [llama2-psp](https://github.com/caiomadeira/llama2-psp) |
+| Nintendo Wii, 88MB RAM, 729 MHz PowerPC                                   | stories15M, int8              | 61.9 tok/s (GPU engine), 12.7 tok/s (CPU) | [iiama2.c](https://github.com/brysontang/iiama2.c)      |
+| PS Vita PCH-1000, ARM Cortex-A9 overclocked to 555 MHz                    | stories260K / stories15M      | ~120 / ~1.8 tok/s                         | [psvita-llm](https://github.com/callbacked/psvita-llm)  |
+| Nintendo Switch, Tegra X1, Switchroot Linux                               | Llama 3.2 3B Instruct, Q4_K_M | 3.50 tok/s generation                     | [write-up](https://nocoffei.com/?p=352)                 |
 
 ## Microcontrollers
 
@@ -76,7 +77,6 @@ Not a benchmark, just an extreme example from the list.
 
 We haven't found a documented on-device port for these yet. If one exists, or you build one, send a PR.
 
-- PlayStation 2
 - Game Boy / Game Boy Advance
 - Kindle (e-ink)
 - Graphing calculator (inference on the calculator itself)
