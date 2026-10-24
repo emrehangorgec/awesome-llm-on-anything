@@ -6,6 +6,8 @@ Retro PCs, game consoles, handhelds, microcontrollers. If it has a CPU and someo
 
 **The one rule:** inference must run **on the device itself**, on real hardware. Devices that only talk to a model elsewhere go in *Thin clients*. Ports shown only in an emulator go in *Emulator only*.
 
+**Seen one we're missing?** [Paste a link](https://github.com/emrehangorgec/awesome-llm-on-anything/issues/new?template=new-port.yml), we fill in the rest.
+
 **About the speeds:** every number is what the port's author reported, linked to its source. Nobody here re-benchmarked them. Models, quantization and tokenizers differ between rows, so treat speeds as flavor, not a ranking. `?` means no speed is recorded in this list yet.
 
 ## Contents
@@ -75,7 +77,7 @@ Not a benchmark, just an extreme example from the list.
 
 ## Wanted
 
-We haven't found a documented on-device port for these yet. If one exists, or you build one, send a PR.
+We haven't found a documented on-device port for these yet. If one exists, or you build one, tell us (see Contributing below).
 
 - Game Boy / Game Boy Advance
 - Kindle (e-ink)
@@ -92,4 +94,10 @@ We haven't found a documented on-device port for these yet. If one exists, or yo
 
 ## Contributing
 
-Got a model running on a toaster? Read [CONTRIBUTING.md](CONTRIBUTING.md) and open a PR with one entry.
+Got a model running on a toaster? Two ways in.
+
+**No Git needed:** [share a port](https://github.com/emrehangorgec/awesome-llm-on-anything/issues/new/choose) by pasting one link. We fill in the details, add the row and credit you.
+
+**Open a PR:** read [CONTRIBUTING.md](CONTRIBUTING.md) and add one row.
+
+Missing a speed or spotted a wrong number? [Fix an entry](https://github.com/emrehangorgec/awesome-llm-on-anything/issues/new?template=update-entry.yml). Only have a rumor? Drop it in the [tips thread](https://github.com/emrehangorgec/awesome-llm-on-anything/discussions/6).

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Just a tip or a rumor?
+    url: https://github.com/emrehangorgec/awesome-llm-on-anything/discussions/6
+    about: Drop half finished leads in the tips thread. No proof needed yet.

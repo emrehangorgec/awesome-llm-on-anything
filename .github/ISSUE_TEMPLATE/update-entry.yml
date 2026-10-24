@@ -1,0 +1,26 @@
+name: Fix or update an entry
+description: Add a missing speed, fix a wrong number, report a dead link, or move an emulator port to real hardware.
+title: "[Update] "
+labels: ["update"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      placeholder: "PlayStation Portable, llama2-psp"
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+      placeholder: "Speed is 4.2 tok/s generation with stories260K"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link to where the number or fact comes from. Your own measurement is welcome; describe how you timed it.
+    validations:
+      required: true

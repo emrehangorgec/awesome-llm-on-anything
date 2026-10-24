@@ -1,0 +1,22 @@
+name: Share a port
+description: Just paste a link. We fill in the rest.
+title: "[Port] "
+labels: ["new port"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Seen an LLM running on weird hardware? Paste the repo or write-up link. That's it.
+        We check the source, fill in device, model and speed, add the row and credit you.
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: "https://github.com/someone/llama-on-a-toaster"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else? (optional)
+      description: Device, speed, a video, whether it's yours. Anything helps, nothing is required.

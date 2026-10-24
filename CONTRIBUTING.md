@@ -2,6 +2,8 @@
 
 Thanks for adding to the list. One PR, one entry.
 
+**Don't want to touch Git?** [Share a port](https://github.com/emrehangorgec/awesome-llm-on-anything/issues/new?template=new-port.yml) by pasting a single link. A maintainer adds the row and you get credited in the commit. Not sure it qualifies? Ask in the [tips thread](https://github.com/emrehangorgec/awesome-llm-on-anything/discussions/6).
+
 ## What qualifies
 
 - Inference runs **on the device itself**. If the device only sends prompts to a model elsewhere, it goes in *Thin clients*.
