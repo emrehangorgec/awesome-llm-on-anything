@@ -66,6 +66,7 @@ Nintendo 64: the author reports running on real hardware, but the linked source 
 
 Real ports, but so far only shown running in an emulator. Moves to the tables above once someone runs it on real hardware.
 
+- [llama2c_Dreamcast](https://github.com/gameblabla/llama2c_Dreamcast) - A Sega Dreamcast port running TinyStories (262K parameters, precision not reported). The author reports 30 to 50 tok/s in Flycast and says it has only been tested in the emulator ([source](https://www.dreamcast-talk.com/forum/viewtopic.php?t=18090)).
 - [semu-c64](https://github.com/trholding/semu-c64) - A RISC-V emulator running on the C64, running llama2.c with a 240K 8 bit model. Shown in VICE at ~3000% warp: about 25 minutes for two tokens.
 
 ## Thin clients
