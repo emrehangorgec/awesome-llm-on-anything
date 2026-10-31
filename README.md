@@ -50,12 +50,13 @@ Nintendo 64: the author reports running on real hardware, but the linked source 
 
 ## Microcontrollers
 
-| Device                                                                         | Model              | Reported speed      | Project                                                                                 |
-| ------------------------------------------------------------------------------ | ------------------ | ------------------- | --------------------------------------------------------------------------------------- |
-| ESP32-S3 with 2MB PSRAM                                                        | stories260K        | 19.13 tok/s         | [esp32-llm](https://github.com/DaveBben/esp32-llm)                                      |
-| Four ESP32 boards, with and without PSRAM                                      | 260K, FP32         | 2.32 to 22.00 tok/s | [ESP32-Tiny-LLM](https://github.com/Circuit-Digest/ESP32-Tiny-LLM)                      |
-| Raspberry Pi Pico (RP2040)                                                     | stories260K        | ?                   | [picollama260k](https://github.com/tarelerulz/pico-experiments/tree/main/picollama260k) |
-| RP2350 board with 16MB flash and 8MB PSRAM (standard Pico 2 boards won't work) | bundled 14MB model | ~850 ms per token   | [PicoLlama](https://github.com/earlephilhower/PicoLlama)                                |
+| Device                                                                         | Model              | Reported speed                         | Project                                                                                 |
+| ------------------------------------------------------------------------------ | ------------------ | -------------------------------------- | --------------------------------------------------------------------------------------- |
+| NUCLEO-H7A3ZI-Q, STM32H7A3 at 280 MHz, ~1.4MB RAM, 2MB internal flash          | stories260K, FP32  | up to ~87 tok/s, including UART output | [EmbedLlama](https://github.com/schuhandreas/embedllama-stm32h7a3#performance)          |
+| ESP32-S3 with 2MB PSRAM                                                        | stories260K        | 19.13 tok/s                            | [esp32-llm](https://github.com/DaveBben/esp32-llm)                                      |
+| Four ESP32 boards, with and without PSRAM                                      | 260K, FP32         | 2.32 to 22.00 tok/s                    | [ESP32-Tiny-LLM](https://github.com/Circuit-Digest/ESP32-Tiny-LLM)                      |
+| Raspberry Pi Pico (RP2040)                                                     | stories260K        | ?                                      | [picollama260k](https://github.com/tarelerulz/pico-experiments/tree/main/picollama260k) |
+| RP2350 board with 16MB flash and 8MB PSRAM (standard Pico 2 boards won't work) | bundled 14MB model | ~850 ms per token                      | [PicoLlama](https://github.com/earlephilhower/PicoLlama)                                |
 
 ## Wearables
 
