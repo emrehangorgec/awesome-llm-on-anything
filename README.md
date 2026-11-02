@@ -16,6 +16,7 @@ Retro PCs, game consoles, handhelds, microcontrollers. If it has a CPU and someo
 - [Consoles and handhelds](#consoles-and-handhelds)
 - [Microcontrollers](#microcontrollers)
 - [Wearables](#wearables)
+- [FPGAs](#fpgas)
 - [Emulator only](#emulator-only)
 - [Thin clients](#thin-clients)
 - [Extremes](#extremes)
@@ -63,6 +64,14 @@ Nintendo 64: the author reports running on real hardware, but the linked source 
 | Device                                                       | Model                         | Reported speed | Project                                            |
 | ------------------------------------------------------------ | ----------------------------- | -------------- | -------------------------------------------------- |
 | Google Pixel Watch 3, Wear OS 5, 32 bit ARM, ~0.5GB free RAM | SmolLM2-360M-Instruct, Q4_K_M | ~1 to 4 tok/s  | [wear-llm](https://github.com/mkornreich/wear-llm) |
+
+## FPGAs
+
+| Device                               | Model                   | Reported speed       | Project                                                                                                                                |
+| ------------------------------------ | ----------------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Xilinx KV260, 4GB PS RAM for weights | LLaMA2-7B, AWQ 4-bit    | ~5 tok/s decoding    | [llama-fpga](https://github.com/adamgallas/llama-fpga) · [performance and demos](https://github.com/adamgallas/llama-fpga#performance) |
+
+The author reports decoding speed only. Prompt processing reuses the decode accelerator token by token; the reported speed is not an end-to-end measurement.
 
 ## Emulator only
 
