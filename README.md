@@ -1,5 +1,7 @@
 # Awesome LLM on Anything [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+![Awesome LLM on Anything](assets/cover.png)
+
 > Language models running locally on hardware that has no business running them.
 
 Retro PCs, game consoles, handhelds, microcontrollers. If it has a CPU and someone got tokens out of it, it belongs here.
