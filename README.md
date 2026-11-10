@@ -34,6 +34,7 @@ Retro PCs, game consoles, handhelds, microcontrollers. If it has a CPU and someo
 | 486 DX2 66 MHz, 32MB RAM, DOS 6.22                                          | stories260K                     | 2.08 tok/s                                     | [dosllam2](https://github.com/yeokm1/dosllam2) · [write-up](https://yeokhengmeng.com/2025/04/llama2-llm-on-dos/)         |
 | Pentium II, 128MB RAM, Windows 98                                           | stories260K / stories15M        | 39.31 / 1.03 tok/s                             | [llama98.c](https://github.com/exo-explore/llama98.c) · [write-up](https://blog.exolabs.net/day-4/)                      |
 | PowerBook G4 Titanium (2002), 1 GHz, 1GB RAM, OS 9.2.2, flash IDE drive     | GPT-2 124M / TinyLlama 1.1B, Q8 | 1.45 / 0.10 tok/s (TinyLlama uses disk paging) | [MacinAI Local](https://github.com/alexhoopes/MacinAI-Local) · [write-up](https://oldapplestuff.com/blog/MacinAI-Local/) |
+| Power Mac G5, dual 2 GHz PPC970, 8GB RAM, Leopard 10.5                      | TinyLlama 1.1B, Q4              | ~3 to 5 tok/s (timing scope unspecified)       | [llama.cpp for PowerPC](https://github.com/Scottcjn/llama-cpp-tigerleopard#performance)                                  |
 
 ## Consoles and handhelds
 
